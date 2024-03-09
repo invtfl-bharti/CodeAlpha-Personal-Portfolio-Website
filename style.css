@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left {
+    height: 4rem;
+    width: 8rem;
+}
+
+.left img {
+    background-size: cover;
+    height: 5rem;
+    width: 9rem;
+}
