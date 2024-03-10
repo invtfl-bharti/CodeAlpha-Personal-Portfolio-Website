@@ -4,13 +4,40 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: crimson;
+}
+
 .left {
-    height: 4rem;
+    margin-top: -2rem;
+    height: 8rem;
     width: 8rem;
 }
 
 .left img {
     background-size: cover;
-    height: 5rem;
-    width: 9rem;
+    height: 8rem;
+    width: 8rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid ul {
+    margin-top: 1rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
