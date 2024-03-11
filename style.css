@@ -33,11 +33,27 @@ header {
 }
 
 .mid ul a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .right {
     margin-right: 1rem;
     margin-top: 1rem;
+    color: white;
+}
+
+.heading {
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.about-me {
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
 }
