@@ -89,6 +89,17 @@ header {
 }
 
 .heading span {
-
     color: rgb(221, 27, 50);
+}
+
+.description {
+    height: 10rem;
+
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+.about-me {
+    position: absolute;
+    top: 65%;
 }
