@@ -69,7 +69,7 @@ header {
 }
 
 .intro {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 10rem;
     width: 40rem;
 }
@@ -78,4 +78,17 @@ header {
     background-size: cover;
     height: 22rem;
     width: 22rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+
+.heading p {
+    color: black;
+}
+
+.heading span {
+
+    color: rgb(221, 27, 50);
 }
