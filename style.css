@@ -68,6 +68,12 @@ header {
     width: 20rem;
 }
 
+.intro {
+    border: 2px solid black;
+    height: 10rem;
+    width: 40rem;
+}
+
 .profile img {
     background-size: cover;
     height: 22rem;
