@@ -55,3 +55,21 @@ header {
     width: 10rem;
     border-radius: 2rem;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    margin-top: 5rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.profile img {
+    background-size: cover;
+    height: 22rem;
+    width: 22rem;
+}
