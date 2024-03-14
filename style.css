@@ -100,6 +100,25 @@ header {
 }
 
 .about-me {
+    height: 2.8rem;
+    width: 10rem;
     position: absolute;
     top: 65%;
+    background-color: rgb(225, 55, 75);
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.about-me:hover {
+    background-color: rgb(168, 9, 27);
+    color: white;
+}
+
+.links {
+    top: 75%;
+    left: 14%;
+    position: absolute;
+    font-size: 2rem;
+    color: black;
 }
