@@ -4,12 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: crimson;
-}
 
 .left {
-    margin-top: -2rem;
+    margin-top: -1rem;
     height: 8rem;
     width: 8rem;
 }
@@ -33,22 +30,23 @@ header {
 }
 
 .mid ul a {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-size: 1.4rem;
 }
 
 .right {
     margin-right: 1rem;
     margin-top: 1rem;
-    color: white;
+    color: black;
 }
 
 .heading {
-    color: white;
+    color: black;
 }
 
 .description {
-    color: white;
+    color: black;
 }
 
 .about-me {
