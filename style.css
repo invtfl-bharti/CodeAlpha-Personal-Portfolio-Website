@@ -216,9 +216,10 @@ header {
 .links a {
     padding: 6px 4px 0px 4px;
     border-radius: 50%;
-    border: .2rem solid var(--snd-btf-color);
+    border: .2rem solid var(--text-color);
 }
 
+
 .links i {
-    color: var(--text-color);
+    color: var(--snd-btf-color);
 }
