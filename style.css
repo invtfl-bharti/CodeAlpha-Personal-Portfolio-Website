@@ -6,7 +6,7 @@
 
 :root {
     --bg-color: #eff0f5;
-    --snd-btf-color: rgb(212, 64, 81);
+    --snd-btf-color: rgb(234, 82, 68);
     --text-color: #000000;
     --main-color: #59B2F4;
 }
@@ -175,11 +175,11 @@ header {
     width: 11rem;
     margin-top: 10rem;
     padding: 10px 1.5rem;
-    margin-top: 25rem;
-    margin-left: -25rem;
+    margin-top: 28rem;
+    margin-left: -26rem;
     font-size: 1.2rem;
     border-radius: 2rem;
-    background-color: var(--snd-bf-color);
+    background-color: var(--snd-btf-color);
     border: none;
     padding: 13px 5px 5px 1.7rem;
 
@@ -204,11 +204,19 @@ header {
 }
 
 .links {
-    top: 75%;
-    left: 12%;
+    top: 62%;
+    left: 11%;
     position: absolute;
     font-size: 2rem;
     color: var(--text-color);
+    background: transparent;
+    transition: .5s ease;
+}
+
+.links a {
+    padding: 6px 4px 0px 4px;
+    border-radius: 50%;
+    border: .2rem solid var(--snd-btf-color);
 }
 
 .links i {
