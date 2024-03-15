@@ -5,9 +5,9 @@
 }
 
 :root {
-    --bg-color: #eff0f5;
-    --snd-btf-color: rgb(234, 82, 68);
-    --text-color: #000000;
+    --bg-color: #191f36;
+    --snd-btf-color: #262B40;
+    --text-color: #fff;
     --main-color: #59B2F4;
 }
 
@@ -18,15 +18,15 @@ body {
 
 
 .left {
-    margin-top: -1rem;
+    margin-top: -3.5rem;
     height: 8rem;
     width: 8rem;
 }
 
 .left img {
     background-size: cover;
-    height: 8rem;
-    width: 8rem;
+    height: 12rem;
+    width: 12rem;
 }
 
 header {
@@ -36,7 +36,7 @@ header {
 }
 
 .mid ul {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     width: 40rem;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ header {
 }
 
 .mid ul a:hover {
-    color: var(--snd-btf-color);
+    color: var(--main-color);
 }
 
 .right {
@@ -175,14 +175,18 @@ header {
     width: 11rem;
     margin-top: 10rem;
     padding: 10px 1.5rem;
-    margin-top: 28rem;
+    margin-top: 30rem;
     margin-left: -26rem;
     font-size: 1.2rem;
     border-radius: 2rem;
-    background-color: var(--snd-btf-color);
+    background-color: var(--main-color);
     border: none;
     padding: 13px 5px 5px 1.7rem;
 
+}
+
+.cv-btn:hover {
+    background-color: var(--bg-color);
 }
 
 .profession {
@@ -190,6 +194,10 @@ header {
     height: 3rem;
     width: 25rem;
     font-size: 1.7rem;
+}
+
+.profession span {
+    color: var(--main-color);
 }
 
 .cv-btn a {
@@ -211,15 +219,24 @@ header {
     color: var(--text-color);
     background: transparent;
     transition: .5s ease;
+    
 }
 
 .links a {
     padding: 6px 4px 0px 4px;
     border-radius: 50%;
     border: .2rem solid var(--text-color);
+    color: var(--bg-color);
+    
+}
+
+.links a:hover {
+    background: var(--main-color);
+    color: var(--snd-btf-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 
 .links i {
-    color: var(--snd-btf-color);
+    color: var(--main-color);
 }
