@@ -6,7 +6,7 @@
 
 :root {
     --bg-color: #eff0f5;
-    --snd-bf-color: #262B40;
+    --snd-btf-color: rgb(212, 64, 81);
     --text-color: #000000;
     --main-color: #59B2F4;
 }
@@ -43,28 +43,28 @@ header {
 }
 
 .mid ul a {
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 1.4rem;
 }
 
 .mid ul a:hover {
-    color: rgb(189, 36, 36);
+    color: var(--snd-btf-color);
 }
 
 .right {
     margin-right: 1rem;
     margin-top: 0.8rem;
-    color: black;
+    color: var(--text-color);
     font-size: 1.8rem;
 }
 
 .heading {
-    color: black;
+    color: var(--text-color);
 }
 
 .description {
-    color: black;
+    color: var(--text-color);
 }
 
 .about-me {
@@ -83,7 +83,7 @@ header {
 .profile {
     position: relative;
     left: 30%;
-    top: 6rem;
+    top: 2rem;
     height: 20rem;
     width: 20rem;
 }
@@ -102,6 +102,7 @@ header {
     width: 35rem;
     position: absolute;
     left: 50%;
+    animation: floatImage 4s ease-in-out infinite;
 
 }
 
@@ -124,10 +125,29 @@ header {
     position: absolute;
     height: 20rem;
     width: 20rem;
+    animation: floatImage 4s ease-in-out infinite;
+
+
     /* transform: translate(-1%);
     transition: bottom 10s; */
 
 }
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0.5rem);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0.5rem);
+    }
+
+}
+
 
 
 
@@ -136,7 +156,7 @@ header {
 }
 
 .heading p {
-    color: black;
+    color: var(--text-color);
 }
 
 .heading span {
@@ -146,24 +166,41 @@ header {
 .description {
     height: 10rem;
     font-size: 1.4rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
-.about-me {
-    height: 2.8rem;
-    width: 10rem;
-    position: absolute;
-    top: 63%;
-    background-color: rgb(225, 85, 101);
+.cv-btn {
+    height: 3rem;
+    border: 2px solid var(--bg-color);
+    width: 11rem;
+    margin-top: 10rem;
+    padding: 10px 1.5rem;
+    margin-top: 25rem;
+    margin-left: -25rem;
     font-size: 1.2rem;
-    left: 12%;
-    color: white;
+    border-radius: 2rem;
+    background-color: var(--snd-bf-color);
+    border: none;
+    padding: 13px 5px 5px 1.7rem;
 
 }
+
+.profession {
+    margin-top: 0.8rem;
+    height: 3rem;
+    width: 25rem;
+    font-size: 1.7rem;
+}
+
+.cv-btn a {
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
 
 .about-me:hover {
     background-color: rgb(153, 38, 52);
-    color: white;
+    color: var(--bg-color);
 }
 
 .links {
@@ -171,9 +208,9 @@ header {
     left: 12%;
     position: absolute;
     font-size: 2rem;
-    color: black;
+    color: var(--text-color);
 }
 
 .links i {
-    color: black;
+    color: var(--text-color);
 }
