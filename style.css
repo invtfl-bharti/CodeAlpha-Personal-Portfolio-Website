@@ -181,11 +181,12 @@ header {
     border-radius: 2rem;
     background-color: var(--main-color);
     border: none;
+    box-shadow: 0 0 1rem var(--main-color);
     padding: 13px 5px 5px 1.7rem;
 
 }
 
-.cv-btn:hover {
+.btn:hover {
     background-color: var(--btn-color);
 }
 
@@ -259,6 +260,7 @@ header {
     padding: 2.5rem 10px 0px;
     border: 6px solid var(--btn-color);
     border-radius: 1rem;
+    box-shadow: 0 0 3rem var(--btn-color);
 }
 
 .profile-photo img {
@@ -269,4 +271,72 @@ header {
 .right-sec {
     position: absolute;
     left: 60%;
+}
+
+.about-me {
+    position: absolute;
+    top: 2rem;
+    height: 28rem;
+    width: 28rem;
+    left: -2rem;
+}
+
+#title {
+    font-size: 3.5rem;
+}
+
+#title span {
+    color: var(--main-color);
+}
+
+#title1 {
+    position: absolute;
+    top: 5rem;
+    font-size: 2rem;
+}
+
+.des {
+    position: absolute;
+    top: 35%;
+    font-size: 1.2rem;
+}
+
+.read-more {
+    position: absolute;
+    top: 70%;
+    height: 3rem;
+    border: 2px solid var(--bg-color);
+    width: 9rem;
+    padding: 10px 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: var(--main-color);
+    border: none;
+    padding: 13px 5px 5px 1.7rem;
+    box-shadow: 0 0 1rem var(--main-color);
+
+}
+
+.read-more a {
+    text-decoration: none;
+    color: var(--snd-btf-color)
+}
+
+.read-more:hover {
+    background-color: var(--btn-color);
+}
+
+.skills-title {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.skills-sec {
+    position: relative;
+    top: 80rem;
+}
+
+
+.skills-title span {
+    color: var(--main-color);
 }
