@@ -9,6 +9,7 @@
     --snd-btf-color: #262B40;
     --text-color: #fff;
     --main-color: #59B2F4;
+    --btn-color: #2d9ff6;
 }
 
 body {
@@ -176,7 +177,7 @@ header {
     margin-top: 10rem;
     padding: 10px 1.5rem;
     margin-top: 30rem;
-    margin-left: -26rem;
+    margin-left: -22rem;
     font-size: 1.2rem;
     border-radius: 2rem;
     background-color: var(--main-color);
@@ -186,7 +187,7 @@ header {
 }
 
 .cv-btn:hover {
-    background-color: var(--bg-color);
+    background-color: var(--btn-color);
 }
 
 .profession {
@@ -219,7 +220,7 @@ header {
     color: var(--text-color);
     background: transparent;
     transition: .5s ease;
-    
+
 }
 
 .links a {
@@ -227,7 +228,7 @@ header {
     border-radius: 50%;
     border: .2rem solid var(--text-color);
     color: var(--bg-color);
-    
+
 }
 
 .links a:hover {
