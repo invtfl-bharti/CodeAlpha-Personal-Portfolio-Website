@@ -350,7 +350,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
+
 
 .heading-skills {
 
@@ -384,6 +386,7 @@ header {
     margin-top: 8%;
 
 }
+
 .heading-skills h3 {
     margin-left: 5%;
     margin-top: 3.5%;
@@ -432,4 +435,45 @@ header {
 
 .percentage-num {
     margin-left: 87%;
+}
+
+/* Professional Skills Section */
+
+.prof-sec {
+    margin: 5rem 10% 0px 4rem;
+    border: 2px solid var(--skills-bar-color);
+    height: 35rem;
+    width: 35rem;
+    border-radius: 0.8rem;
+
+}
+
+.quality {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.prof-sec>h2 {
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle::before {
+
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
 }
