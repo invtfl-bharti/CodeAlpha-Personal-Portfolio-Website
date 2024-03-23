@@ -335,6 +335,9 @@ header {
 .skills-sec {
     position: relative;
     top: 80rem;
+
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -342,8 +345,28 @@ header {
     color: var(--main-color);
 }
 
-.skills {
+.tech-skills {
+    top: 5rem;
+    position: relative;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative;
+    left: 20%;
+    right: 20%; */
+    /* align-items: center; */
+}
+
+.heading-skills {
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tech-title {
+    height: 200%;
+    width: 15rem;
+    border: 2px solid white;
+    margin-left: 25%;
+    margin-right: 25%;
 }
