@@ -370,3 +370,17 @@ header {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+.tech-sec {
+    margin: 5rem 0px 0px 4rem;
+    box-shadow: rgba(38, 186, 227, 0.876) 0px 30px 60px -15px inset, rgba(218, 13, 13, 0.991) 0px 18px 36px -18px inset;
+    border: 2px solid rgb(0, 213, 255);
+    height: 35rem;
+    width: 35rem;
+    border-radius: 0.8rem;
+
+}
+
+.tech-sec h2 {
+    text-align: center;
+}
