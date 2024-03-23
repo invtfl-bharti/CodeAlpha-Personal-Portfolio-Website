@@ -384,14 +384,14 @@ header {
     margin-top: 8%;
 
 }
-
-
-
 .heading-skills h3 {
-    margin-left: 7%;
-    /* margin-top: 3%;
-     */
+    margin-left: 5%;
+    margin-top: 3.5%;
+}
 
+.heading-skills i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .main2 {
@@ -406,9 +406,27 @@ header {
     border-radius: 2rem;
 }
 
-.box .bar {
+.javascript .box .bar {
     height: 0.5rem;
-    width: 40%;
+    width: 80%;
+    background-color: var(--btn-color);
+}
+
+.Cpp .box .bar {
+    height: 0.5rem;
+    width: 89%;
+    background-color: var(--btn-color);
+}
+
+.Python .box .bar {
+    height: 0.5rem;
+    width: 75%;
+    background-color: var(--btn-color);
+}
+
+.html-css .box .bar {
+    height: 0.5rem;
+    width: 89%;
     background-color: var(--btn-color);
 }
 
