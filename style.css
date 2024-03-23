@@ -133,11 +133,6 @@ header {
     height: 20rem;
     width: 20rem;
     animation: floatImage 4s ease-in-out infinite;
-
-
-    /* transform: translate(-1%);
-    transition: bottom 10s; */
-
 }
 
 @keyframes floatImage {
@@ -166,30 +161,35 @@ header {
     color: var(--text-color);
 }
 
+/* Download CV Button section */
+
 .cv-btn {
+    position: absolute;
+    top: 60%;
+    left: 12%;
     height: 3rem;
     border: 2px solid var(--bg-color);
-    width: 11rem;
+    width: 10rem;
     padding: 10px 1.5rem;
-    margin-top: 23rem;
-    margin-left: -22rem;
     font-size: 1.2rem;
     border-radius: 2rem;
     background-color: var(--main-color);
     border: none;
-    box-shadow: 0 0 1rem var(--main-color);
     padding: 13px 5px 5px 1.7rem;
+    box-shadow: 0 0 1rem var(--main-color);
 
-}
-
-.btn:hover {
-    background-color: var(--btn-color);
 }
 
 .cv-btn a {
-    color: var(--bg-color);
     text-decoration: none;
+    color: var(--snd-btf-color)
 }
+
+.cv-btn:hover {
+    background-color: var(--btn-color);
+}
+
+/* Profession below the name */
 
 .profession {
     margin-top: 0.8rem;
@@ -204,9 +204,9 @@ header {
 
 
 
-/*  */
+/* Social media links for github twitter and linkedIn */
 
-.links {
+.socialmedia-links{
     top: 75%;
     left: 11%;
     position: absolute;
@@ -217,7 +217,7 @@ header {
 
 }
 
-.links a {
+.socialmedia-links a {
     padding: 6px 4px 0px 4px;
     border-radius: 50%;
     border: .2rem solid var(--text-color);
@@ -225,18 +225,18 @@ header {
 
 }
 
-.links a:hover {
+.socialmedia-links a:hover {
     background: var(--main-color);
     color: var(--snd-btf-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-.links a:hover i {
+.socialmedia-links a:hover i {
     filter: invert(50%);
 }
 
 
-.links i {
+.socialmedia-links i {
     color: var(--main-color);
 }
 
