@@ -206,7 +206,7 @@ header {
 
 /* Social media links for github twitter and linkedIn */
 
-.socialmedia-links{
+.socialmedia-links {
     top: 75%;
     left: 11%;
     position: absolute;
@@ -333,7 +333,7 @@ header {
 
 .skills-sec {
     position: relative;
-    top: 80rem;
+    top: 75rem;
 
     height: 100%;
     width: 100%;
@@ -478,3 +478,18 @@ header {
     left: 10%;
 }
 
+.services-sec {
+    border: 2px solid black;
+    height: 30rem;
+    width: 100%;
+    margin-top: 120%;
+    text-align: center;
+}
+
+.services-sec>h2 {
+    font-size: 3.5rem;
+}
+
+.services-sec span {
+    color: #59B2F4;
+}
