@@ -51,6 +51,7 @@ header {
 
 .mid ul a:hover {
     color: var(--main-color);
+    border-bottom: 2px solid white;
 }
 
 .right {
