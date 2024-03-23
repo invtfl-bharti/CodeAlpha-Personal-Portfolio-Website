@@ -327,7 +327,7 @@ header {
 }
 
 .skills-title {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-align: center;
 }
 
@@ -480,7 +480,7 @@ header {
 
 .services-sec {
     border: 2px solid black;
-    height: 30rem;
+
     width: 100%;
     margin-top: 120%;
     text-align: center;
@@ -492,4 +492,31 @@ header {
 
 .services-sec span {
     color: #59B2F4;
+}
+
+.my-info {
+
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.services {
+    opacity: 1;
+    backdrop-filter: blur(45px);
+    background-color: var(--snd-btf-color);
+    border-radius: 2rem;
+    height: 25rem;
+    width: 25rem;
+    border: 2px solid whitesmoke;
+}
+
+
+.img img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
 }
