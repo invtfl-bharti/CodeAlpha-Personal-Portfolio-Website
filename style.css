@@ -623,19 +623,16 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
 }
 
-.title-projects {
-    text-align: center;
-}
-
-.title-projects>h2,
-.title-projects span {
+.portfolio-sec h2 {
 
     font-size: 3.5rem;
+    margin-left: 120%;
+    width: 100%;
+
 }
 
-.title-projects span {
+.portfolio-sec span {
     color: var(--main-color);
 }
