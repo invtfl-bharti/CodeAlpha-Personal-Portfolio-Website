@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
 }
 
 :root {
@@ -165,11 +171,11 @@ header {
 
 .cv-btn {
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 12%;
     height: 3rem;
     border: 2px solid var(--bg-color);
-    width: 10rem;
+    width: 12rem;
     padding: 10px 1.5rem;
     font-size: 1.2rem;
     border-radius: 2rem;
@@ -307,11 +313,11 @@ header {
 
 .read-more {
     position: absolute;
-    top: 70%;
+    top: 77%;
     height: 3rem;
     border: 2px solid var(--bg-color);
-    width: 9rem;
-    padding: 10px 1.5rem;
+    width: 10rem;
+    /* padding: 10px 2rem 1.2rem; */
     font-size: 1.2rem;
     border-radius: 2rem;
     background-color: var(--main-color);
@@ -322,8 +328,10 @@ header {
 }
 
 .read-more a {
+    
     text-decoration: none;
-    color: var(--snd-btf-color)
+    color: var(--snd-btf-color);
+    /* padding: 0px 0px 2.5rem 0px; */
 }
 
 .read-more a:hover {
@@ -344,9 +352,10 @@ header {
     position: relative;
     top: 70rem;
     padding-top: 5rem;
-    height: 100%;
+    height: 60rem;
     width: 100%;
 }
+
 
 
 .skills-title span {
@@ -481,21 +490,24 @@ header {
     position: absolute;
     height: 80%;
     width: 80%;
-    background-color: black;
+    background-color: var(--bg-color);
     border-radius: 50%;
     top: 10%;
     left: 10%;
 }
 
 .services-sec {
-    border: 2px solid black;
-
-    width: 100%;
+    height: 40rem;
+    width: 40rem;
     margin-top: 120%;
-    text-align: center;
+    width: 200rem;
+    max-width: 1400px;
+    overflow-x: auto;
+    padding-left: 1rem;
 }
 
 .services-sec>h2 {
+    text-align: center;
     font-size: 3.5rem;
 }
 
@@ -504,21 +516,29 @@ header {
 }
 
 .my-info {
-
-    margin-top: 3rem;
-    width: 100%;
+    scrollbar-width: none;
+    padding: 1rem 10px 1rem 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.2rem;
+    width: 200rem;
+    max-width: 1400px;
+    overflow-x: auto;
+    /* margin-top: 120%; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.2rem;
+
 }
 
 .services {
+
     opacity: 1;
     backdrop-filter: blur(45px);
     background-color: var(--snd-btf-color);
     border-radius: 2rem;
-    height: 25rem;
+    height: 30rem;
     width: 25rem;
     border: 2px solid whitesmoke;
     transition: all .5s ease-in-out;
@@ -531,6 +551,10 @@ header {
 
 }
 
+/* .ml {
+    margin-top: -20rem;
+    /* margin-left: 34%; */
+/* } */
 
 .img img {
     height: 10rem;
@@ -541,4 +565,8 @@ header {
 .btn1 {
     margin-left: 30%;
     padding-right: 1.2rem;
+}
+
+.portfolio h2 {
+    font-size: 3.5rem;
 }
