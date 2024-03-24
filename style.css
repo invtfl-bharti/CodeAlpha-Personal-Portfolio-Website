@@ -185,6 +185,10 @@ header {
     color: var(--snd-btf-color)
 }
 
+.cv-btn a:hover {
+    color: var(--text-color);
+}
+
 .cv-btn:hover {
     background-color: var(--btn-color);
 }
@@ -322,8 +326,13 @@ header {
     color: var(--snd-btf-color)
 }
 
+.read-more a:hover {
+    color: var(--text-color);
+}
+
 .read-more:hover {
     background-color: var(--btn-color);
+
 }
 
 .skills-title {
@@ -512,6 +521,14 @@ header {
     height: 25rem;
     width: 25rem;
     border: 2px solid whitesmoke;
+    transition: all .5s ease-in-out;
+}
+
+.services:hover {
+    border: 2px solid var(--btn-color);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px var(--btn-color);
+
 }
 
 
