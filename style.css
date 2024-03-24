@@ -328,7 +328,7 @@ header {
 }
 
 .read-more a {
-    
+
     text-decoration: none;
     color: var(--snd-btf-color);
     /* padding: 0px 0px 2.5rem 0px; */
@@ -499,11 +499,12 @@ header {
 .services-sec {
     height: 40rem;
     width: 40rem;
-    margin-top: 120%;
+    margin-top: 100%;
     width: 200rem;
     max-width: 1400px;
     overflow-x: auto;
     padding-left: 1rem;
+    position: relative;
 }
 
 .services-sec>h2 {
@@ -515,7 +516,7 @@ header {
     color: #59B2F4;
 }
 
-.my-info {
+.my_info {
     scrollbar-width: none;
     padding: 1rem 10px 1rem 1rem;
     display: grid;
@@ -524,7 +525,6 @@ header {
     width: 200rem;
     max-width: 1400px;
     overflow-x: auto;
-    /* margin-top: 120%; */
     text-align: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -542,6 +542,8 @@ header {
     width: 25rem;
     border: 2px solid whitesmoke;
     transition: all .5s ease-in-out;
+    cursor: pointer;
+    /* overflow: hidden; */
 }
 
 .services:hover {
@@ -550,11 +552,6 @@ header {
     box-shadow: 10px 10px 10px var(--btn-color);
 
 }
-
-/* .ml {
-    margin-top: -20rem;
-    /* margin-left: 34%; */
-/* } */
 
 .img img {
     height: 10rem;
@@ -569,4 +566,76 @@ header {
 
 .portfolio h2 {
     font-size: 3.5rem;
+}
+
+.slide-arrow {
+    left: 0;
+    top: 6rem;
+    height: 76%;
+    width: 10rem;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.752), transparent); */
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow2 {
+    right: 5rem;
+    top: 6rem;
+    height: 76%;
+    width: 10rem;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 2.3rem;
+    z-index: 100;
+    left: -1rem;
+
+}
+
+@media screen and (max-width:900px) {
+    .services {
+        width: calc(100/2);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .services {
+        width: 100%;
+    }
+}
+
+.portfolio-sec {
+    height: 40rem;
+    width: 100vw;
+    margin-top: 18%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.title-projects {
+    text-align: center;
+}
+
+.title-projects>h2,
+.title-projects span {
+
+    font-size: 3.5rem;
+}
+
+.title-projects span {
+    color: var(--main-color);
 }
