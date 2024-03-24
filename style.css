@@ -245,10 +245,10 @@ header {
 
 .about-page {
     position: relative;
-    top: 30rem;
+    top: 25rem;
     display: flex;
     justify-content: center;
-
+    padding-top: 6rem;
 
 }
 
@@ -333,8 +333,8 @@ header {
 
 .skills-sec {
     position: relative;
-    top: 75rem;
-
+    top: 70rem;
+    padding-top: 5rem;
     height: 100%;
     width: 100%;
 }
@@ -361,7 +361,7 @@ header {
 }
 
 .tech-title {
-    height: 200%;
+    height: 180%;
     width: 15rem;
     border: 2px solid var(--text-color);
     margin-left: 25%;
@@ -370,7 +370,7 @@ header {
 
 .tech-sec {
 
-    margin: 5rem 0px 0px 4rem;
+    margin: 0px 0px 0px 4rem;
     border: 2px solid var(--skills-bar-color);
     height: 35rem;
     width: 35rem;
@@ -440,7 +440,7 @@ header {
 /* Professional Skills Section */
 
 .prof-sec {
-    margin: 5rem 10% 0px 4rem;
+    margin: 0px 10% 0px 4rem;
     border: 2px solid var(--skills-bar-color);
     height: 35rem;
     width: 35rem;
@@ -519,4 +519,9 @@ header {
     height: 10rem;
     width: 10rem;
     object-fit: cover;
+}
+
+.btn1 {
+    margin-left: 30%;
+    padding-right: 1.2rem;
 }
