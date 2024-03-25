@@ -540,10 +540,9 @@ header {
     border-radius: 2rem;
     height: 30rem;
     width: 25rem;
-    border: 2px solid whitesmoke;
+    border: 2px solid var(--text-color);
     transition: all .5s ease-in-out;
     cursor: pointer;
-    /* overflow: hidden; */
 }
 
 .services:hover {
@@ -635,4 +634,32 @@ header {
 
 .portfolio-sec span {
     color: var(--main-color);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.5rem;
+}
+
+.proj {
+    opacity: 1;
+    backdrop-filter: blur(45px);
+    background-color: var(--snd-btf-color);
+    border-radius: 2rem;
+    height: 30rem;
+    width: 25rem;
+    border: 2px solid var(--text-color);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    margin-left: -50%;
+    margin-top: 33%;
+}
+
+.proj .img img {
+    position: relative;
+    height: 14rem;
+    width: 25rem;
+    object-fit: cover;
 }
